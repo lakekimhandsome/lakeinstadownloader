@@ -1,0 +1,15 @@
+# Python 가상환경 및 캐시
+venv/
+__pycache__/
+*.pyc
+
+# 다운로드된 미디어 파일
+*.mp4
+*.jpg
+*.zip
+
+# Flask 정적 파일 (자동 생성된 경우)
+static/
+
+# 환경변수 파일
+.env
