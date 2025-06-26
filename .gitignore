@@ -13,3 +13,4 @@ static/
 
 # 환경변수 파일
 .env
+.DS_Store
