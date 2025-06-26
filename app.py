@@ -58,6 +58,7 @@ def index():
     return render_template('index.html')
 
 
-# ✅ 이 아래 부분이 중요!
+# ✅ Render에서 실행 가능하게 수정
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
