@@ -12,10 +12,11 @@ temp_*/
 
 # 환경변수 및 세션 정보
 .env
-*.session
+# *.session
 
 # macOS 시스템 파일
 .DS_Store
 
 # Flask 정적 파일 (자동 생성되는 경우에만 필요)
 # static/
+*.session
