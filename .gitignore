@@ -1,16 +1,21 @@
-# Python 가상환경 및 캐시
+# Python 가상환경 및 캐시 파일
 venv/
+.venv/
 __pycache__/
 *.pyc
 
-# 다운로드된 미디어 파일
+# 다운로드된 미디어 및 압축 파일
 *.mp4
 *.jpg
 *.zip
+temp_*/
 
-# Flask 정적 파일 (자동 생성된 경우)
-static/
-
-# 환경변수 파일
+# 환경변수 및 세션 정보
 .env
+*.session
+
+# macOS 시스템 파일
 .DS_Store
+
+# Flask 정적 파일 (자동 생성되는 경우에만 필요)
+# static/
